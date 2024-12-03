@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tele-Entrega</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mini-Mercado</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="prodAlimentos.html">Produtos Alimentícios</a></li>
+            <li><a href="frutVerd.html">Frutas e Verduras</a></li>
+            <li><a href="higiene.html">Higiene & Limpeza</a></li>
+            <li><a href="retirada.html">Retirada no Local</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="teleEntrega">
+            <h2>Agendamento de Tele-Entrega</h2>
+            <form id="form-teleEntrega">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="dataEntrega" class="form-label">Data e Hora para Entrega</label>
+                    <input type="datetime-local" class="form-control" id="dataEntrega" required>
+                </div>
+                <div class="mb-3">
+                    <label for="endereco" class="form-label">Endereço de Entrega</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Digite seu endereço" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Agendar Entrega</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mini-Mercado - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

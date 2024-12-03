@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-Mercado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mini-Mercado</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="frutVerd.html#frutas">Frutas e Verduras</a></li>
+            <li><a href="prodAlimentos.html#produtos">Produtos Alimentícios</a></li>
+            <li><a href="higiene.html#higiene">Higiene & Limpeza</a></li>
+            <li><a href="cadastro.html">Cadastro de Cliente</a></li>
+            <li><a href="retirada.html">Retirada no Local</a></li>
+             <li><a href="teleEntrega.html">Tele-Entrega</a></li>
+        </ul>
+    </nav>
+
+    <div id="produtoCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="abacaxii.png" class="d-block w-100" alt="Abacaxi Pérola">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Abacaxi Pérola</h5>
+                    <p>R$10,00 - Unidade, Fresh Orgânico</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="melancia.png" class="d-block w-100" alt="Melancia Baby">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Melancia Baby</h5>
+                    <p>R$10,00 - Unidade</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#produtoCarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#produtoCarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <footer>
+        <p>© 2024 Mini-Mercado - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html> 
